@@ -3,7 +3,7 @@ import styles from './Card.module.css';
 import { BiPhone } from 'react-icons/bi';
 import { AiOutlineSend } from 'react-icons/ai';
 
-export default () => {
+const Component = () => {
     return (
         <div className={styles.main}>
             <div className={styles.left}>
@@ -19,3 +19,5 @@ export default () => {
         </div>
     )
 }
+
+export default Component;

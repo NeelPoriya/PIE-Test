@@ -4,7 +4,7 @@ import styles from './header.module.css'
 import Link from 'next/link'
 import { AiOutlineSearch } from 'react-icons/ai'
 
-export default () => {
+const Component = () => {
     return (
         <>
             <div className={rootStyles.container}>
@@ -44,3 +44,5 @@ export default () => {
         </>
     )
 }
+
+export default Component;

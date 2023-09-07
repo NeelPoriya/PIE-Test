@@ -2,7 +2,7 @@ import Image from 'next/image'
 import rootStyles from './../app/page.module.css'
 import styles from './CustomerSection.module.css'
 
-export default () => {
+const Component = () => {
     return (
         <div className={rootStyles.container}>
             <div className={styles.main}>
@@ -26,3 +26,5 @@ export default () => {
         </div>
     )
 }
+
+export default Component;

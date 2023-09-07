@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default () => {
+const Component = () => {
     return (
         <div style={{
             width: '100%'
@@ -13,3 +13,5 @@ export default () => {
         </div>
     );
 }
+
+export default Component;
