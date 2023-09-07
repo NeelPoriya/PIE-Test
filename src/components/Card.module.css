@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 0 2px #888;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.left{
+    width: 40%;
+    padding: 0 20px;
+    position: relative;
+}
+
+.left svg{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.right h3{
+    color: rgb(212, 117, 0);
+    margin-top: 10px;
+}
+
+.right p{
+    margin-top: 10px;
+    font-size: 0.9em;
+    line-height: 140%;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buttonContainer a{
+    padding: 10px 20px;
+    color: rgb(212, 117, 0);
+    font-size: 1.9em;
+    cursor: pointer;
+}
